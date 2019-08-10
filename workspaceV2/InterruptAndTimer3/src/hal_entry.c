@@ -14,7 +14,7 @@ void hal_entry(void)
     }
 }
 
-void button_callback_SW5(external_irq_callback_args_t *p_args)
+void button_callback_SW5(/*external_irq_callback_args_t *p_args*/)
 {
     g_ioport.p_api->pinWrite(Leds.p_leds[0], led_0_level);
     g_ioport.p_api->pinWrite(Leds.p_leds[1], led_0_level);
