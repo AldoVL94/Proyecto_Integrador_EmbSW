@@ -13,7 +13,7 @@ extern "C"
 /* External IRQ on ICU Instance. */
 extern const external_irq_instance_t g_external_irq0;
 #ifndef button_callback_SW5
-void button_callback_SW5(external_irq_callback_args_t *p_args);
+void button_callback_SW5(/* external_irq_callback_args_t *p_args* /);
 #endif
 void hal_entry(void);
 void g_hal_init(void);
