@@ -1,0 +1,25 @@
+10:53:09 **** Incremental Build of configuration Debug for project InterruptAndTimer3 ****
+make -j12 all 
+'Building file: ../src/synergy_gen/hal_data.c'
+'Invoking: Cross ARM C Compiler'
+C:\Renesas\e2_studio\eclipse\/../\Utilities\\/isdebuild arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O2 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wunused -Wuninitialized -Wall -Wextra -Wmissing-declarations -Wconversion -Wpointer-arith -Wshadow -Wlogical-op -Waggregate-return -Wfloat-equal  -g3 -D_RENESAS_SYNERGY_ -I"C:\Users\SEI204\e2_studio\workspaceV2\InterruptAndTimer3\synergy_cfg\ssp_cfg\bsp" -I"C:\Users\SEI204\e2_studio\workspaceV2\InterruptAndTimer3\synergy_cfg\ssp_cfg\driver" -I"C:\Users\SEI204\e2_studio\workspaceV2\InterruptAndTimer3\synergy\ssp\inc" -I"C:\Users\SEI204\e2_studio\workspaceV2\InterruptAndTimer3\synergy\ssp\inc\bsp" -I"C:\Users\SEI204\e2_studio\workspaceV2\InterruptAndTimer3\synergy\ssp\inc\bsp\cmsis\Include" -I"C:\Users\SEI204\e2_studio\workspaceV2\InterruptAndTimer3\synergy\ssp\inc\driver\api" -I"C:\Users\SEI204\e2_studio\workspaceV2\InterruptAndTimer3\synergy\ssp\inc\driver\instances" -I"C:\Users\SEI204\e2_studio\workspaceV2\InterruptAndTimer3\src" -I"C:\Users\SEI204\e2_studio\workspaceV2\InterruptAndTimer3\src\synergy_gen" -std=c99 -MMD -MP -MF"src/synergy_gen/hal_data.d" -MT"src/synergy_gen/hal_data.o" -c -o "src/synergy_gen/hal_data.o" -x c "../src/synergy_gen/hal_data.c"
+'Finished building: ../src/synergy_gen/hal_data.c'
+' '
+'Building target: InterruptAndTimer3.elf'
+'Invoking: Cross ARM C Linker'
+arm-none-eabi-gcc @"InterruptAndTimer3.elf.in"
+'Finished building target: InterruptAndTimer3.elf'
+' '
+'Invoking: Cross ARM GNU Create Flash Image'
+arm-none-eabi-objcopy -O srec "InterruptAndTimer3.elf"  "InterruptAndTimer3.srec"
+'Invoking: Cross ARM GNU Print Size'
+arm-none-eabi-size --format=berkeley "InterruptAndTimer3.elf"
+   text	   data	    bss	    dec	    hex	filename
+  17000	    124	   8404	  25528	   63b8	InterruptAndTimer3.elf
+'Finished building: InterruptAndTimer3.srec'
+'Finished building: InterruptAndTimer3.siz'
+' '
+' '
+
+10:53:10 Build Finished. 0 errors, 0 warnings. (took 1s.64ms)
+

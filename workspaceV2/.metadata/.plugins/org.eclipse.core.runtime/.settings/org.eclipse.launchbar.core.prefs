@@ -1,0 +1,10 @@
+LaunchTargetManager/configs/InterruptAndTimer3\ Debug=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:InterruptAndTimer3 Debug
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:InterruptAndTimer\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:InterruptAndTimer\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:InterruptAndTimer3\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:InterruptAndTimer3\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

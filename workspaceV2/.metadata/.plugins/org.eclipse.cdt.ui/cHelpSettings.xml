@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cHelpSettings>
+<project name="InterruptAndTimer">
+<provider id="org.eclipse.cdt.ui.provider1"/>
+<provider id="org.eclipse.linuxtools.cdt.libhover.provider">
+<book enabled="true" title="Renesas.Synergy.1.4.0.pack"/>
+</provider>
+</project>
+<project name="InterruptAndTimer2">
+<provider id="org.eclipse.cdt.ui.provider1"/>
+<provider id="org.eclipse.linuxtools.cdt.libhover.provider">
+<book enabled="false" title="Renesas.Synergy.1.4.0.pack"/>
+</provider>
+</project>
+<project name="InterruptAndTimer3">
+<provider id="org.eclipse.cdt.ui.provider1"/>
+<provider id="org.eclipse.linuxtools.cdt.libhover.provider">
+<book enabled="true" title="Renesas.Synergy.1.4.0.pack"/>
+</provider>
+</project>
+</cHelpSettings>
